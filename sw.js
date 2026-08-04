@@ -1,5 +1,5 @@
 /* 관제판 서비스워커 — 문서는 네트워크 우선(갱신 즉시 반영), 나머지는 캐시 우선 */
-const CACHE = 'dash-v2026-08-04-1230';
+const CACHE = 'dash-v2026-08-04-1245';
 const SHELL = ['./', './index.html', './manifest.webmanifest',
                './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 self.addEventListener('install', e => {
